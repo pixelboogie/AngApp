@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { MessagesComponent } from './messages.component';
 
-@Component({
+@Component({ 
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: '<h1>Howdy! {{title}}</h1><messages></messages>',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'frontend';
+  title = 'frontend!!';
 }
